@@ -1,0 +1,24 @@
+* PerMag 7.0 Script (Field Precision)
+* File: electromagnet.PIN
+* Date: 06/14/2021
+* Time: 16:32:45
+
+Mesh = electromagnet
+Geometry = Cylin
+DUnit =   1.0000E+02
+ResTarget =   1.0000E-09
+MaxCycle =    5000
+Avg =   1.0000E-01
+Update =     10   200
+
+* Region 1: REGION002
+Mu(1) =   1.0000E+00
+
+* Region 2: REGION003
+Mu(2) =   2.0000E+03
+
+* Region 3: REGION004
+Current(3) =   1.0000E+02
+Mu(3) =   1.0000E+00
+
+EndFile

@@ -1,0 +1,213 @@
+    ---- Analyzing the logical mesh ----
+Line   1 * File: electromagnet.MIN
+Line   2 * MESH 7.0 script (Field Precision)
+Line   3 *  Date: 06/14/21
+Line   4 *  Time: 16:28:50
+Line   5 *  -------------------------------------------------------
+Line   6 GLOBAL
+Line   7   ZMESH
+Line   8        23.50426   95.50426    1.00000
+Line   9   END
+Line  10   RMESH
+Line  11        44.09398  114.09398    1.00000
+Line  12   END
+Line  13 END
+Organizing mesh in x-direction
+ --- Logical mesh values along the x axis ---
+     KMax:    73    XMin:  2.350E+01    XMax:  9.550E+01
+Organizing mesh in y-direction
+ --- Logical mesh values along the y axis ---
+     LMax:    71    YMin:  4.409E+01    YMax:  1.141E+02
+Defining logical elements
+Floating point tolerance, DToler:   1.00000E-02
+Line  14 *  -------------------------------------------------------
+Line  15 REGION  FILL REGION002
+Line  16   L     95.50426   44.09398   23.50426   44.09398
+Line  17   L     23.50426   44.09398   23.50426  114.09398
+Line  18   L     23.50426  114.09398   95.50426  114.09398
+Line  19   L     95.50426  114.09398   95.50426   44.09398
+Line  20 END
+Line  21 *  -------------------------------------------------------
+Line  22 REGION  FILL REGION003
+Line  23   L     43.50426   74.09398   43.50426  100.09398
+Line  24   L     43.50426  100.09398   75.50426  100.09398
+Line  25   L     75.50426  100.09398   75.50426   74.09398
+Line  26   L     75.50426   74.09398   70.50426   74.09398
+Line  27   L     70.50426   74.09398   70.50426   95.09398
+Line  28   L     70.50426   95.09398   48.50426   95.09398
+Line  29   L     48.50426   95.09398   48.50426   74.09398
+Line  30   L     48.50426   74.09398   43.50426   74.09398
+Line  31 END
+Line  32 *  -------------------------------------------------------
+Line  33 REGION  FILL REGION004
+Line  34   L     49.50426   74.09398   69.50426   74.09398
+Line  35   L     69.50426   74.09398   69.50426   94.09398
+Line  36   L     69.50426   94.09398   49.50426   94.09398
+Line  37   L     49.50426   94.09398   49.50426   74.09398
+Line  38 END
+Line  39 *  -------------------------------------------------------
+Line  40 ENDFILE
+    ---- Analyzing the logical mesh ----
+Line   1 * File: electromagnet.MIN
+Line   2 * MESH 7.0 script (Field Precision)
+Line   3 *  Date: 06/14/21
+Line   4 *  Time: 16:28:50
+Line   5 *  -------------------------------------------------------
+Line   6 GLOBAL
+Line   7   ZMESH
+Line   8        23.50426   95.50426    1.00000
+Line   9   END
+Line  10   RMESH
+Line  11        44.09398  114.09398    1.00000
+Line  12   END
+Line  13 END
+Organizing mesh in x-direction
+ --- Logical mesh values along the x axis ---
+     KMax:    73    XMin:  2.350E+01    XMax:  9.550E+01
+Organizing mesh in y-direction
+ --- Logical mesh values along the y axis ---
+     LMax:    71    YMin:  4.409E+01    YMax:  1.141E+02
+Defining logical elements
+Floating point tolerance, DToler:   1.00000E-02
+    ---- Processing region boundaries ----
+Line  14 *  -------------------------------------------------------
+Line  15 REGION  FILL REGION002
+Line  16   L     95.50426   44.09398   23.50426   44.09398
+Line  17   L     23.50426   44.09398   23.50426  114.09398
+Line  18   L     23.50426  114.09398   95.50426  114.09398
+Line  19   L     95.50426  114.09398   95.50426   44.09398
+Line  20 END
+    --- Data for Region Number    1 ---
+  Filled region
+  Number of vectors    4
+Type     ZStart     RStart     ZEnd      REnd      ZCenter     RCenter
+-----------------------------------------------------------------------
+Line   9.550E+01  4.409E+01  2.350E+01  4.409E+01
+Line   2.350E+01  4.409E+01  2.350E+01  1.141E+02
+Line   2.350E+01  1.141E+02  9.550E+01  1.141E+02
+Line   9.550E+01  1.141E+02  9.550E+01  4.409E+01
+Processsing Region   1 with    4 vectors
+ Line analysis of Vector    1 in Region    1
+    Shifting [ 9.563E+01, 4.409E+01] to [ 9.550E+01, 4.409E+01]
+    Shifting [ 2.363E+01, 4.409E+01] to [ 2.350E+01, 4.409E+01]
+    Completed in  71 steps
+ Line analysis of Vector    2 in Region    1
+    Shifting [ 2.350E+01, 4.409E+01] to [ 2.350E+01, 4.409E+01]
+    Shifting [ 2.363E+01, 1.141E+02] to [ 2.350E+01, 1.141E+02]
+    Completed in  69 steps
+ Line analysis of Vector    3 in Region    1
+    Shifting [ 2.350E+01, 1.141E+02] to [ 2.350E+01, 1.141E+02]
+    Shifting [ 9.563E+01, 1.141E+02] to [ 9.550E+01, 1.141E+02]
+    Completed in  71 steps
+ Line analysis of Vector    4 in Region    1
+    Shifting [ 9.550E+01, 1.141E+02] to [ 9.550E+01, 1.141E+02]
+    Shifting [ 9.550E+01, 4.409E+01] to [ 9.550E+01, 4.409E+01]
+    Completed in  69 steps
+Line  21 *  -------------------------------------------------------
+Line  22 REGION  FILL REGION003
+Line  23   L     43.50426   74.09398   43.50426  100.09398
+Line  24   L     43.50426  100.09398   75.50426  100.09398
+Line  25   L     75.50426  100.09398   75.50426   74.09398
+Line  26   L     75.50426   74.09398   70.50426   74.09398
+Line  27   L     70.50426   74.09398   70.50426   95.09398
+Line  28   L     70.50426   95.09398   48.50426   95.09398
+Line  29   L     48.50426   95.09398   48.50426   74.09398
+Line  30   L     48.50426   74.09398   43.50426   74.09398
+Line  31 END
+    --- Data for Region Number    2 ---
+  Filled region
+  Number of vectors    8
+Type     ZStart     RStart     ZEnd      REnd      ZCenter     RCenter
+-----------------------------------------------------------------------
+Line   4.350E+01  7.409E+01  4.350E+01  1.001E+02
+Line   4.350E+01  1.001E+02  7.550E+01  1.001E+02
+Line   7.550E+01  1.001E+02  7.550E+01  7.409E+01
+Line   7.550E+01  7.409E+01  7.050E+01  7.409E+01
+Line   7.050E+01  7.409E+01  7.050E+01  9.509E+01
+Line   7.050E+01  9.509E+01  4.850E+01  9.509E+01
+Line   4.850E+01  9.509E+01  4.850E+01  7.409E+01
+Line   4.850E+01  7.409E+01  4.350E+01  7.409E+01
+Processsing Region   2 with    8 vectors
+ Line analysis of Vector    1 in Region    2
+    Shifting [ 4.370E+01, 7.409E+01] to [ 4.350E+01, 7.409E+01]
+    Shifting [ 4.370E+01, 1.001E+02] to [ 4.350E+01, 1.001E+02]
+    Completed in  25 steps
+ Line analysis of Vector    2 in Region    2
+    Shifting [ 4.350E+01, 1.001E+02] to [ 4.350E+01, 1.001E+02]
+    Shifting [ 7.570E+01, 1.001E+02] to [ 7.550E+01, 1.001E+02]
+    Completed in  31 steps
+ Line analysis of Vector    3 in Region    2
+    Shifting [ 7.550E+01, 1.001E+02] to [ 7.550E+01, 1.001E+02]
+    Shifting [ 7.570E+01, 7.409E+01] to [ 7.550E+01, 7.409E+01]
+    Completed in  25 steps
+ Line analysis of Vector    4 in Region    2
+    Shifting [ 7.550E+01, 7.409E+01] to [ 7.550E+01, 7.409E+01]
+    Shifting [ 7.070E+01, 7.409E+01] to [ 7.050E+01, 7.409E+01]
+    Completed in   4 steps
+ Line analysis of Vector    5 in Region    2
+    Shifting [ 7.050E+01, 7.409E+01] to [ 7.050E+01, 7.409E+01]
+    Shifting [ 7.025E+01, 9.509E+01] to [ 7.050E+01, 9.509E+01]
+    Completed in  20 steps
+ Line analysis of Vector    6 in Region    2
+    Shifting [ 7.050E+01, 9.509E+01] to [ 7.050E+01, 9.509E+01]
+    Shifting [ 4.825E+01, 9.509E+01] to [ 4.850E+01, 9.509E+01]
+    Completed in  21 steps
+ Line analysis of Vector    7 in Region    2
+    Shifting [ 4.850E+01, 9.509E+01] to [ 4.850E+01, 9.509E+01]
+    Shifting [ 4.870E+01, 7.409E+01] to [ 4.850E+01, 7.409E+01]
+    Completed in  20 steps
+ Line analysis of Vector    8 in Region    2
+    Shifting [ 4.850E+01, 7.409E+01] to [ 4.850E+01, 7.409E+01]
+    Shifting [ 4.350E+01, 7.409E+01] to [ 4.350E+01, 7.409E+01]
+    Completed in   4 steps
+Line  32 *  -------------------------------------------------------
+Line  33 REGION  FILL REGION004
+Line  34   L     49.50426   74.09398   69.50426   74.09398
+Line  35   L     69.50426   74.09398   69.50426   94.09398
+Line  36   L     69.50426   94.09398   49.50426   94.09398
+Line  37   L     49.50426   94.09398   49.50426   74.09398
+Line  38 END
+    --- Data for Region Number    3 ---
+  Filled region
+  Number of vectors    4
+Type     ZStart     RStart     ZEnd      REnd      ZCenter     RCenter
+-----------------------------------------------------------------------
+Line   4.950E+01  7.409E+01  6.950E+01  7.409E+01
+Line   6.950E+01  7.409E+01  6.950E+01  9.409E+01
+Line   6.950E+01  9.409E+01  4.950E+01  9.409E+01
+Line   4.950E+01  9.409E+01  4.950E+01  7.409E+01
+Processsing Region   3 with    4 vectors
+ Line analysis of Vector    1 in Region    3
+    Shifting [ 4.966E+01, 7.409E+01] to [ 4.950E+01, 7.409E+01]
+    Shifting [ 6.972E+01, 7.409E+01] to [ 6.950E+01, 7.409E+01]
+    Completed in  19 steps
+ Line analysis of Vector    2 in Region    3
+    Shifting [ 6.950E+01, 7.409E+01] to [ 6.950E+01, 7.409E+01]
+    Shifting [ 6.975E+01, 9.409E+01] to [ 6.950E+01, 9.409E+01]
+    Completed in  19 steps
+ Line analysis of Vector    3 in Region    3
+    Shifting [ 6.950E+01, 9.409E+01] to [ 6.950E+01, 9.409E+01]
+    Shifting [ 4.965E+01, 9.409E+01] to [ 4.950E+01, 9.409E+01]
+    Completed in  19 steps
+ Line analysis of Vector    4 in Region    3
+    Shifting [ 4.950E+01, 9.409E+01] to [ 4.950E+01, 9.409E+01]
+    Shifting [ 4.950E+01, 7.409E+01] to [ 4.950E+01, 7.409E+01]
+    Completed in  19 steps
+Line  39 *  -------------------------------------------------------
+Line  40 ENDFILE
+
+Assignment of region numbers
+   Number of regions in the file:   3
+*  Region    Region
+*  number    name
+*  ======================
+*       1    REGION002
+*       2    REGION003
+*       3    REGION004
+
+Checking mesh and correcting inverted elements
+
+  Pass   Number of inverted elements
+ ===================================
+       1            0
+
