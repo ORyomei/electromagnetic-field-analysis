@@ -1,0 +1,24 @@
+* PerMag 7.0 Script (Field Precision)
+* File: h_shaped_electromagnet.PIN
+* Date: 06/21/2021
+* Time: 10:33:02
+
+Mesh = h_shaped_electromagnet
+Geometry = Cylin
+DUnit =   1.0000E+03
+ResTarget =   1.0000E-09
+MaxCycle =    5000
+Avg =   1.0000E-01
+Update =     10   200
+
+* Region 1: BOUNDERY
+Mu(1) =   1.0000E+00
+
+* Region 2: YOKE
+Mu(2) =   5.0000E+03
+
+* Region 3: COIL
+Current(3) =   2.0000E+03
+Mu(3) =   1.0000E+00
+
+EndFile

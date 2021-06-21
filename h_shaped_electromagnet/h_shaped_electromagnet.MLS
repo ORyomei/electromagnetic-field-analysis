@@ -1,0 +1,213 @@
+    ---- Analyzing the logical mesh ----
+Line   1 * File: h_shaped_electromagnet.MIN
+Line   2 * MESH 7.0 script (Field Precision)
+Line   3 *  Date: 06/21/21
+Line   4 *  Time: 10:31:49
+Line   5 *  -------------------------------------------------------
+Line   6 GLOBAL
+Line   7   ZMESH
+Line   8        23.08266  263.08267    2.00000
+Line   9   END
+Line  10   RMESH
+Line  11        34.11939  184.11940    2.00000
+Line  12   END
+Line  13 END
+Organizing mesh in x-direction
+ --- Logical mesh values along the x axis ---
+     KMax:   121    XMin:  2.308E+01    XMax:  2.631E+02
+Organizing mesh in y-direction
+ --- Logical mesh values along the y axis ---
+     LMax:    76    YMin:  3.412E+01    YMax:  1.841E+02
+Defining logical elements
+Floating point tolerance, DToler:   2.00000E-02
+Line  14 *  -------------------------------------------------------
+Line  15 REGION  FILL BOUNDERY
+Line  16   L     23.08266   34.11939  263.08267   34.11939
+Line  17   L    263.08267   34.11939  263.08267  184.11940
+Line  18   L    263.08267  184.11940   23.08266  184.11940
+Line  19   L     23.08266  184.11940   23.08266   34.11939
+Line  20 END
+Line  21 *  -------------------------------------------------------
+Line  22 REGION  FILL YOKE
+Line  23   L     23.08266   54.11939   73.08266   54.11939
+Line  24   L     73.08266   54.11939   73.08266  124.11939
+Line  25   L     73.08266  124.11939  173.08266  124.11939
+Line  26   L    173.08266  124.11939  173.08266   34.11939
+Line  27   L    173.08266   34.11939  233.08266   34.11939
+Line  28   L    233.08266   34.11939  233.08266  154.11940
+Line  29   L    233.08266  154.11940   23.08266  154.11940
+Line  30   L     23.08266  154.11940   23.08266   54.11939
+Line  31 END
+Line  32 *  -------------------------------------------------------
+Line  33 REGION  FILL COIL
+Line  34   L    133.08266  114.11939  133.08266   64.11939
+Line  35   L    133.08266   64.11939   83.08266   64.11939
+Line  36   L     83.08266   64.11939   83.08266  114.11939
+Line  37   L     83.08266  114.11939  133.08266  114.11939
+Line  38 END
+Line  39 *  -------------------------------------------------------
+Line  40 ENDFILE
+    ---- Analyzing the logical mesh ----
+Line   1 * File: h_shaped_electromagnet.MIN
+Line   2 * MESH 7.0 script (Field Precision)
+Line   3 *  Date: 06/21/21
+Line   4 *  Time: 10:31:49
+Line   5 *  -------------------------------------------------------
+Line   6 GLOBAL
+Line   7   ZMESH
+Line   8        23.08266  263.08267    2.00000
+Line   9   END
+Line  10   RMESH
+Line  11        34.11939  184.11940    2.00000
+Line  12   END
+Line  13 END
+Organizing mesh in x-direction
+ --- Logical mesh values along the x axis ---
+     KMax:   121    XMin:  2.308E+01    XMax:  2.631E+02
+Organizing mesh in y-direction
+ --- Logical mesh values along the y axis ---
+     LMax:    76    YMin:  3.412E+01    YMax:  1.841E+02
+Defining logical elements
+Floating point tolerance, DToler:   2.00000E-02
+    ---- Processing region boundaries ----
+Line  14 *  -------------------------------------------------------
+Line  15 REGION  FILL BOUNDERY
+Line  16   L     23.08266   34.11939  263.08267   34.11939
+Line  17   L    263.08267   34.11939  263.08267  184.11940
+Line  18   L    263.08267  184.11940   23.08266  184.11940
+Line  19   L     23.08266  184.11940   23.08266   34.11939
+Line  20 END
+    --- Data for Region Number    1 ---
+  Filled region
+  Number of vectors    4
+Type     ZStart     RStart     ZEnd      REnd      ZCenter     RCenter
+-----------------------------------------------------------------------
+Line   2.308E+01  3.412E+01  2.631E+02  3.412E+01
+Line   2.631E+02  3.412E+01  2.631E+02  1.841E+02
+Line   2.631E+02  1.841E+02  2.308E+01  1.841E+02
+Line   2.308E+01  1.841E+02  2.308E+01  3.412E+01
+Processsing Region   1 with    4 vectors
+ Line analysis of Vector    1 in Region    1
+    Shifting [ 2.333E+01, 3.412E+01] to [ 2.308E+01, 3.412E+01]
+    Shifting [ 2.633E+02, 3.412E+01] to [ 2.631E+02, 3.412E+01]
+    Completed in 119 steps
+ Line analysis of Vector    2 in Region    1
+    Shifting [ 2.631E+02, 3.412E+01] to [ 2.631E+02, 3.412E+01]
+    Shifting [ 2.628E+02, 1.841E+02] to [ 2.631E+02, 1.841E+02]
+    Completed in  74 steps
+ Line analysis of Vector    3 in Region    1
+    Shifting [ 2.631E+02, 1.841E+02] to [ 2.631E+02, 1.841E+02]
+    Shifting [ 2.283E+01, 1.841E+02] to [ 2.308E+01, 1.841E+02]
+    Completed in 119 steps
+ Line analysis of Vector    4 in Region    1
+    Shifting [ 2.308E+01, 1.841E+02] to [ 2.308E+01, 1.841E+02]
+    Shifting [ 2.308E+01, 3.412E+01] to [ 2.308E+01, 3.412E+01]
+    Completed in  74 steps
+Line  21 *  -------------------------------------------------------
+Line  22 REGION  FILL YOKE
+Line  23   L     23.08266   54.11939   73.08266   54.11939
+Line  24   L     73.08266   54.11939   73.08266  124.11939
+Line  25   L     73.08266  124.11939  173.08266  124.11939
+Line  26   L    173.08266  124.11939  173.08266   34.11939
+Line  27   L    173.08266   34.11939  233.08266   34.11939
+Line  28   L    233.08266   34.11939  233.08266  154.11940
+Line  29   L    233.08266  154.11940   23.08266  154.11940
+Line  30   L     23.08266  154.11940   23.08266   54.11939
+Line  31 END
+    --- Data for Region Number    2 ---
+  Filled region
+  Number of vectors    8
+Type     ZStart     RStart     ZEnd      REnd      ZCenter     RCenter
+-----------------------------------------------------------------------
+Line   2.308E+01  5.412E+01  7.308E+01  5.412E+01
+Line   7.308E+01  5.412E+01  7.308E+01  1.241E+02
+Line   7.308E+01  1.241E+02  1.731E+02  1.241E+02
+Line   1.731E+02  1.241E+02  1.731E+02  3.412E+01
+Line   1.731E+02  3.412E+01  2.331E+02  3.412E+01
+Line   2.331E+02  3.412E+01  2.331E+02  1.541E+02
+Line   2.331E+02  1.541E+02  2.308E+01  1.541E+02
+Line   2.308E+01  1.541E+02  2.308E+01  5.412E+01
+Processsing Region   2 with    8 vectors
+ Line analysis of Vector    1 in Region    2
+    Shifting [ 2.308E+01, 5.412E+01] to [ 2.308E+01, 5.412E+01]
+    Shifting [ 7.348E+01, 5.412E+01] to [ 7.308E+01, 5.412E+01]
+    Completed in  24 steps
+ Line analysis of Vector    2 in Region    2
+    Shifting [ 7.308E+01, 5.412E+01] to [ 7.308E+01, 5.412E+01]
+    Shifting [ 7.258E+01, 1.241E+02] to [ 7.308E+01, 1.241E+02]
+    Completed in  34 steps
+ Line analysis of Vector    3 in Region    2
+    Shifting [ 7.308E+01, 1.241E+02] to [ 7.308E+01, 1.241E+02]
+    Shifting [ 1.726E+02, 1.241E+02] to [ 1.731E+02, 1.241E+02]
+    Completed in  49 steps
+ Line analysis of Vector    4 in Region    2
+    Shifting [ 1.731E+02, 1.241E+02] to [ 1.731E+02, 1.241E+02]
+    Shifting [ 1.735E+02, 3.412E+01] to [ 1.731E+02, 3.412E+01]
+    Completed in  44 steps
+ Line analysis of Vector    5 in Region    2
+    Shifting [ 1.731E+02, 3.412E+01] to [ 1.731E+02, 3.412E+01]
+    Shifting [ 2.335E+02, 3.412E+01] to [ 2.331E+02, 3.412E+01]
+    Completed in  29 steps
+ Line analysis of Vector    6 in Region    2
+    Shifting [ 2.331E+02, 3.412E+01] to [ 2.331E+02, 3.412E+01]
+    Shifting [ 2.335E+02, 1.541E+02] to [ 2.331E+02, 1.541E+02]
+    Completed in  59 steps
+ Line analysis of Vector    7 in Region    2
+    Shifting [ 2.331E+02, 1.541E+02] to [ 2.331E+02, 1.541E+02]
+    Shifting [ 2.308E+01, 1.541E+02] to [ 2.308E+01, 1.541E+02]
+    Completed in 104 steps
+ Line analysis of Vector    8 in Region    2
+    Shifting [ 2.308E+01, 1.541E+02] to [ 2.308E+01, 1.541E+02]
+    Shifting [ 2.308E+01, 5.412E+01] to [ 2.308E+01, 5.412E+01]
+    Completed in  49 steps
+Line  32 *  -------------------------------------------------------
+Line  33 REGION  FILL COIL
+Line  34   L    133.08266  114.11939  133.08266   64.11939
+Line  35   L    133.08266   64.11939   83.08266   64.11939
+Line  36   L     83.08266   64.11939   83.08266  114.11939
+Line  37   L     83.08266  114.11939  133.08266  114.11939
+Line  38 END
+    --- Data for Region Number    3 ---
+  Filled region
+  Number of vectors    4
+Type     ZStart     RStart     ZEnd      REnd      ZCenter     RCenter
+-----------------------------------------------------------------------
+Line   1.331E+02  1.141E+02  1.331E+02  6.412E+01
+Line   1.331E+02  6.412E+01  8.308E+01  6.412E+01
+Line   8.308E+01  6.412E+01  8.308E+01  1.141E+02
+Line   8.308E+01  1.141E+02  1.331E+02  1.141E+02
+Processsing Region   3 with    4 vectors
+ Line analysis of Vector    1 in Region    3
+    Shifting [ 1.335E+02, 1.141E+02] to [ 1.331E+02, 1.141E+02]
+    Shifting [ 1.326E+02, 6.412E+01] to [ 1.331E+02, 6.412E+01]
+    Completed in  24 steps
+ Line analysis of Vector    2 in Region    3
+    Shifting [ 1.331E+02, 6.412E+01] to [ 1.331E+02, 6.412E+01]
+    Shifting [ 8.258E+01, 6.412E+01] to [ 8.308E+01, 6.412E+01]
+    Completed in  24 steps
+ Line analysis of Vector    3 in Region    3
+    Shifting [ 8.308E+01, 6.412E+01] to [ 8.308E+01, 6.412E+01]
+    Shifting [ 8.348E+01, 1.141E+02] to [ 8.308E+01, 1.141E+02]
+    Completed in  24 steps
+ Line analysis of Vector    4 in Region    3
+    Shifting [ 8.308E+01, 1.141E+02] to [ 8.308E+01, 1.141E+02]
+    Shifting [ 1.331E+02, 1.141E+02] to [ 1.331E+02, 1.141E+02]
+    Completed in  24 steps
+Line  39 *  -------------------------------------------------------
+Line  40 ENDFILE
+
+Assignment of region numbers
+   Number of regions in the file:   3
+*  Region    Region
+*  number    name
+*  ======================
+*       1    BOUNDERY
+*       2    YOKE
+*       3    COIL
+
+Checking mesh and correcting inverted elements
+
+  Pass   Number of inverted elements
+ ===================================
+       1            0
+
