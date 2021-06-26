@@ -1,0 +1,233 @@
+    ---- Analyzing the logical mesh ----
+Line   1 * File: electrode.MIN
+Line   2 * MESH 7.0 script (Field Precision)
+Line   3 *  Date: 06/27/21
+Line   4 *  Time: 01:47:12
+Line   5 *  -------------------------------------------------------
+Line   6 GLOBAL
+Line   7   XMESH
+Line   8         7.25618  109.85619    1.00000
+Line   9   END
+Line  10   YMESH
+Line  11        27.02551   97.02551    1.00000
+Line  12   END
+Line  13 END
+Organizing mesh in x-direction
+ --- Logical mesh values along the x axis ---
+     KMax:   104    XMin:  7.256E+00    XMax:  1.099E+02
+Organizing mesh in y-direction
+ --- Logical mesh values along the y axis ---
+     LMax:    71    YMin:  2.703E+01    YMax:  9.703E+01
+Defining logical elements
+Floating point tolerance, DToler:   9.96117E-03
+    ---- Processing region boundaries ----
+Line  14 *  -------------------------------------------------------
+Line  15 REGION  FILL BOUNDERY
+Line  16   L      7.25618   27.02551    7.25618   97.02551
+Line  17   L      7.25618   97.02551  109.85619   97.02551
+Line  18   L    109.85619   97.02551  109.85619   27.02551
+Line  19   L    109.85619   27.02551    7.25618   27.02551
+Line  20 END
+    --- Data for Region Number    1 ---
+  Filled region
+  Number of vectors    4
+Type     XStart     YStart     XEnd      YEnd      XCenter     YCenter
+-----------------------------------------------------------------------
+Line   7.256E+00  2.703E+01  7.256E+00  9.703E+01
+Line   7.256E+00  9.703E+01  1.099E+02  9.703E+01
+Line   1.099E+02  9.703E+01  1.099E+02  2.703E+01
+Line   1.099E+02  2.703E+01  7.256E+00  2.703E+01
+Processsing Region   1 with    4 vectors
+ Line analysis of Vector    1 in Region    1
+    Shifting [ 7.381E+00, 2.703E+01] to [ 7.256E+00, 2.703E+01]
+    Shifting [ 7.381E+00, 9.703E+01] to [ 7.256E+00, 9.703E+01]
+    Completed in  69 steps
+ Line analysis of Vector    2 in Region    1
+    Shifting [ 7.256E+00, 9.703E+01] to [ 7.256E+00, 9.703E+01]
+    Shifting [ 1.100E+02, 9.703E+01] to [ 1.099E+02, 9.703E+01]
+    Completed in 102 steps
+ Line analysis of Vector    3 in Region    1
+    Shifting [ 1.099E+02, 9.703E+01] to [ 1.099E+02, 9.703E+01]
+    Shifting [ 1.100E+02, 2.703E+01] to [ 1.099E+02, 2.703E+01]
+    Completed in  69 steps
+ Line analysis of Vector    4 in Region    1
+    Shifting [ 1.099E+02, 2.703E+01] to [ 1.099E+02, 2.703E+01]
+    Shifting [ 7.256E+00, 2.703E+01] to [ 7.256E+00, 2.703E+01]
+    Completed in 102 steps
+Line  21 *  -------------------------------------------------------
+Line  22 REGION  FILL ANODE1
+Line  23   L     27.25618   96.02551   30.25618   96.02551
+Line  24   L     30.25618   96.02551   30.25618   69.52551
+Line  25   L     30.25618   69.52551   27.25618   69.52551
+Line  26   L     27.25618   69.52551   27.25618   96.02551
+Line  27 END
+    --- Data for Region Number    2 ---
+  Filled region
+  Number of vectors    4
+Type     XStart     YStart     XEnd      YEnd      XCenter     YCenter
+-----------------------------------------------------------------------
+Line   2.726E+01  9.603E+01  3.026E+01  9.603E+01
+Line   3.026E+01  9.603E+01  3.026E+01  6.953E+01
+Line   3.026E+01  6.953E+01  2.726E+01  6.953E+01
+Line   2.726E+01  6.953E+01  2.726E+01  9.603E+01
+Processsing Region   2 with    4 vectors
+ Line analysis of Vector    1 in Region    2
+    Shifting [ 2.693E+01, 9.603E+01] to [ 2.726E+01, 9.603E+01]
+    Shifting [ 2.992E+01, 9.603E+01] to [ 3.026E+01, 9.603E+01]
+    Completed in   2 steps
+ Line analysis of Vector    2 in Region    2
+    Shifting [ 3.026E+01, 9.603E+01] to [ 3.026E+01, 9.603E+01]
+    Shifting [ 3.037E+01, 6.903E+01] to [ 3.026E+01, 6.953E+01]
+    Completed in  26 steps
+ Line analysis of Vector    3 in Region    2
+    Shifting [ 3.026E+01, 6.953E+01] to [ 3.026E+01, 6.953E+01]
+    Shifting [ 2.738E+01, 6.903E+01] to [ 2.726E+01, 6.953E+01]
+    Completed in   2 steps
+ Line analysis of Vector    4 in Region    2
+    Shifting [ 2.726E+01, 6.953E+01] to [ 2.726E+01, 6.953E+01]
+    Shifting [ 2.726E+01, 9.603E+01] to [ 2.726E+01, 9.603E+01]
+    Completed in  26 steps
+Line  28 *  -------------------------------------------------------
+Line  29 REGION  FILL ANODE2
+Line  30   L     27.25618   28.02551   27.25618   54.52551
+Line  31   L     27.25618   54.52551   30.25618   54.52551
+Line  32   L     30.25618   54.52551   30.25618   28.02551
+Line  33   L     30.25618   28.02551   27.25618   28.02551
+Line  34 END
+    --- Data for Region Number    3 ---
+  Filled region
+  Number of vectors    4
+Type     XStart     YStart     XEnd      YEnd      XCenter     YCenter
+-----------------------------------------------------------------------
+Line   2.726E+01  2.803E+01  2.726E+01  5.453E+01
+Line   2.726E+01  5.453E+01  3.026E+01  5.453E+01
+Line   3.026E+01  5.453E+01  3.026E+01  2.803E+01
+Line   3.026E+01  2.803E+01  2.726E+01  2.803E+01
+Processsing Region   3 with    4 vectors
+ Line analysis of Vector    1 in Region    3
+    Shifting [ 2.693E+01, 2.803E+01] to [ 2.726E+01, 2.803E+01]
+    Shifting [ 2.738E+01, 5.503E+01] to [ 2.726E+01, 5.453E+01]
+    Completed in  26 steps
+ Line analysis of Vector    2 in Region    3
+    Shifting [ 2.726E+01, 5.453E+01] to [ 2.726E+01, 5.453E+01]
+    Shifting [ 3.037E+01, 5.503E+01] to [ 3.026E+01, 5.453E+01]
+    Completed in   2 steps
+ Line analysis of Vector    3 in Region    3
+    Shifting [ 3.026E+01, 5.453E+01] to [ 3.026E+01, 5.453E+01]
+    Shifting [ 2.992E+01, 2.803E+01] to [ 3.026E+01, 2.803E+01]
+    Completed in  26 steps
+ Line analysis of Vector    4 in Region    3
+    Shifting [ 3.026E+01, 2.803E+01] to [ 3.026E+01, 2.803E+01]
+    Shifting [ 2.726E+01, 2.803E+01] to [ 2.726E+01, 2.803E+01]
+    Completed in   2 steps
+Line  35 *  -------------------------------------------------------
+Line  36 REGION  FILL CATHODE_ELECTRODE
+Line  37   L    108.35619   64.52551  108.35619   59.52551
+Line  38   L    108.35619   59.52551  106.35619   59.52551
+Line  39   L    106.35619   59.52551  106.35619   64.52551
+Line  40   L    106.35619   64.52551  108.35619   64.52551
+Line  41 END
+    --- Data for Region Number    4 ---
+  Filled region
+  Number of vectors    4
+Type     XStart     YStart     XEnd      YEnd      XCenter     YCenter
+-----------------------------------------------------------------------
+Line   1.084E+02  6.453E+01  1.084E+02  5.953E+01
+Line   1.084E+02  5.953E+01  1.064E+02  5.953E+01
+Line   1.064E+02  5.953E+01  1.064E+02  6.453E+01
+Line   1.064E+02  6.453E+01  1.084E+02  6.453E+01
+Processsing Region   4 with    4 vectors
+ Line analysis of Vector    1 in Region    4
+    Shifting [ 1.081E+02, 6.503E+01] to [ 1.084E+02, 6.453E+01]
+    Shifting [ 1.081E+02, 5.903E+01] to [ 1.084E+02, 5.953E+01]
+    Completed in   5 steps
+ Line analysis of Vector    2 in Region    4
+    Shifting [ 1.084E+02, 5.953E+01] to [ 1.084E+02, 5.953E+01]
+    Shifting [ 1.066E+02, 6.003E+01] to [ 1.064E+02, 5.953E+01]
+    Completed in   1 steps
+ Line analysis of Vector    3 in Region    4
+    Shifting [ 1.064E+02, 5.953E+01] to [ 1.064E+02, 5.953E+01]
+    Shifting [ 1.066E+02, 6.403E+01] to [ 1.064E+02, 6.453E+01]
+    Completed in   3 steps
+ Line analysis of Vector    4 in Region    4
+    Shifting [ 1.064E+02, 6.453E+01] to [ 1.064E+02, 6.453E+01]
+    Shifting [ 1.084E+02, 6.453E+01] to [ 1.084E+02, 6.453E+01]
+    Completed in   1 steps
+Line  42 *  -------------------------------------------------------
+Line  43 REGION  FILL CATHODE1
+Line  44   L    105.85619   84.02551   98.35619   84.02551
+Line  45   L     98.35619   84.02551  105.85619   66.34694
+Line  46   L    105.85619   66.34694  105.85619   84.02551
+Line  47 END
+    --- Data for Region Number    5 ---
+  Filled region
+  Number of vectors    3
+Type     XStart     YStart     XEnd      YEnd      XCenter     YCenter
+-----------------------------------------------------------------------
+Line   1.059E+02  8.403E+01  9.836E+01  8.403E+01
+Line   9.836E+01  8.403E+01  1.059E+02  6.635E+01
+Line   1.059E+02  6.635E+01  1.059E+02  8.403E+01
+Processsing Region   5 with    3 vectors
+ Line analysis of Vector    1 in Region    5
+    Shifting [ 1.056E+02, 8.403E+01] to [ 1.059E+02, 8.403E+01]
+    Shifting [ 9.865E+01, 8.403E+01] to [ 9.836E+01, 8.403E+01]
+    Completed in   6 steps
+ Line analysis of Vector    2 in Region    5
+    Shifting [ 9.836E+01, 8.403E+01] to [ 9.836E+01, 8.403E+01]
+    Shifting [ 1.056E+02, 6.603E+01] to [ 1.059E+02, 6.635E+01]
+    Completed in  17 steps
+ Line analysis of Vector    3 in Region    5
+    Shifting [ 1.059E+02, 6.635E+01] to [ 1.059E+02, 6.635E+01]
+    Shifting [ 1.059E+02, 8.403E+01] to [ 1.059E+02, 8.403E+01]
+
+=================================================================
+
+                      FAILURE TO FIND A PATH
+
+There are several possible causes and corrections for this error.
+They are listed in order of probability...
+
+PROBLEM:
+  There is a syntax error in the MIN file so that the vector definition
+  is inconsistent.
+CORRECTION:
+  Use the EDIT CURRENT SCRIPT command to check the MIN file. The editor
+  automatically starts at the line where the error occurred.
+
+PROBLEM:
+  The vector is too small to resolve with the defined logical elements.
+CORRECTION:
+  First, decide if the small detail is physically significant. If not,
+  remove it. If the object is critical, reduce the element size or employ
+  variable resolution in the XMESH and YMESH statements.
+
+PROBLEM:
+  The shape of logical mesh elements is inappropriate for the vector.
+CORRECTION:
+  The error may occur fitting an arc in a region with acute elements
+  (tall-thin or short-fat). Change the element sizes in the XMESH and
+  YMESH statements.
+
+PROBLEM:
+  The logical mesh contains more than 1000 elements on a side and the
+  vector extends the full length.
+CORRECTION:
+  Increase the element size in the XMesh or YMesh statements or split
+  the vector into two or more parts.
+
+PROBLEM:
+  The program has made an error in determining the equality or inequality
+  of nearby floating point coordinates.
+CORRECTION:
+  It is usually better to use convenient units such that coordinate values
+  are in the range near unity (i.e., microns). You can then set the DUnit
+  parameter in the subsequent solution program to convert coordinates to
+  meters. Alternatively, try changing the floating point tolerance with
+  the TOLERANCE command
+
+=================================================================
+
+Error detected in script
+ Mesh failed to find a path connecting the endpoints.
+ The line may be shorter than the size of nearby elements
+ See the listing file for additional suggestions.
